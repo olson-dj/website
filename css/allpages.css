@@ -1,11 +1,11 @@
 html, body {
-	height: 100%;
 }
 
 body {
 	background-image: linear-gradient(to bottom right, #50CC50, #5a805a, #50CC50);
-	background-size: cover;
-	background-position: center center;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 .footer {
     position: fixed;
@@ -27,8 +27,8 @@ body {
 }
 
 .logo {
-    width: 80px;
-	border: 10px groove;
+    width: 120%;
+	border: 8px groove;
 	border-color: #f5f5bc;
 }
 
