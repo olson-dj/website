@@ -23,3 +23,15 @@
 body {
 	font-family: Helvetica, sans-serif;
 }
+.logo {
+    width: 125%;
+	border: 2px solid white;
+}
+
+.hide {
+	display: none;
+}
+
+.push-down {
+	margin-top: 15px;
+}

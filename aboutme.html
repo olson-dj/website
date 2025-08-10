@@ -3,10 +3,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Projects</title>
+    <title>Daniel Olson - About Me</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/aboutme.css" rel="stylesheet">
     <link href="css/headerfooter.css" rel="stylesheet">
+	<link href="images/favicon.ico" rel="icon">
 </head>
 <body class="content-color">
     <div class="container-fluid">
@@ -16,7 +17,7 @@
                     navbar-dark
                     col-12 hf-navigation">
                     <!-- Brand -->
-                    <a class="navbar-brand" href="./index.html">Logo</a>
+                    <a class="navbar-brand" href="./index.html"><img src="images/siteicon.svg" class="logo" alt="Logo"/></a>
                     <!-- Responsive Button for the smaller menu -->
                     <button class="navbar-toggler" type="button"
                             data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -45,7 +46,7 @@
                         </ul>
                     </div>
                 </nav>
-            <div class="row">
+            <div class="row hide">
             <p class="col-1">Col 1</p>
             <p class="col-1">Col 2</p>
             <p class="col-1">Col 3</p>
@@ -60,10 +61,12 @@
             <p class="col-1">Col 12</p>
             </div>
         <!-- Put content below -->
+		<div class="row push-down">
 		<img src="images/me-cropped.png" class="col-sm-2" id="self-portrait" alt="A picture of me">
 		<p class="col-sm-10">
 			Text for about me goes here.
 		</p>
+		</div>
     </div>
      <footer class="footer">
          <div class="container">
