@@ -1,3 +1,12 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: linear-gradient(to bottom right, #50CC50, #5a805a, #50CC50);
+	background-size: cover;
+	background-position: center center;
+}
 .footer {
     position: fixed;
     left: 0;
@@ -17,14 +26,8 @@
 	color: white !important;
 }
 
-.content-color {
-	background-color: #f5f5bc;
-}
-body {
-	font-family: Helvetica, sans-serif;
-}
 .logo {
-    width: 125%;
+    width: 80px;
 	border: 10px groove;
 	border-color: #f5f5bc;
 }

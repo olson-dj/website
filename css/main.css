@@ -9,6 +9,10 @@ body h1, body h2, body .card {
 	font-family: "Georgia", serif;
 }
 
+h1, h2 {
+	color: white;
+}
+
 .card {
 	height: 100%;
 }
