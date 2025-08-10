@@ -12,3 +12,12 @@ body h1, body h2, body .card {
 .card {
 	height: 100%;
 }
+
+.card:hover {
+	border: 2px solid;
+	border-color: black;
+}
+
+.card h4, .card p {
+	margin: auto auto;
+}

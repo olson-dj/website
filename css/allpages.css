@@ -25,7 +25,8 @@ body {
 }
 .logo {
     width: 125%;
-	border: 2px solid white;
+	border: 10px groove;
+	border-color: #f5f5bc;
 }
 
 .hide {
@@ -33,5 +34,5 @@ body {
 }
 
 .push-down {
-	margin-top: 15px;
+	margin-top: 20px;
 }
