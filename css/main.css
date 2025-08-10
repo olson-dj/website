@@ -1,0 +1,13 @@
+.hide-link-style {
+    text-decoration: none;
+    color: black;
+}
+.hide-link-style:hover {
+    color: black;
+}
+.logo {
+    width: 80px;
+}
+body h1, body h2, body .card {
+	font-family: "Georgia", serif;
+}

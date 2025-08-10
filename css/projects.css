@@ -1,0 +1,22 @@
+.project-icon {
+    width: 100%;
+	min-width: 16.66%;
+    border: 2px solid gray;
+}
+
+.project-box {
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.project-box h3, .project-box p {
+	font-family: Helvetica, sans-serif;
+	color: white;
+}
+.project-box h3 {
+    font-size: 120%;
+	margin-top: 0.25em;
+}
+.project-box a {
+	color: red;
+}
